@@ -1,0 +1,11 @@
+prefix=/home/orinnano004/ros2wk1/install/ydlidar_sdk
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: YDLIDAR_SDK
+Description: 
+Version: 1.1.13
+Cflags:   -I/home/orinnano004/ros2wk1/install/ydlidar_sdk/include/src -I/home/orinnano004/ros2wk1/install/ydlidar_sdk/include
+Libs: -L${libdir}  -lpthread -lrt -lydlidar_sdk
+

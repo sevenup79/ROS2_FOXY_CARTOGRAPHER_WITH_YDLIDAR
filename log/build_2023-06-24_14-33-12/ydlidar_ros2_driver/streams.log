@@ -1,0 +1,60 @@
+[0.031s] Invoking command in '/home/orinnano004/ros2wk1/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/orinnano004/ros2wk1/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orinnano004/ros2wk1/install/ydlidar_ros2_driver
+[1.176s] -- The C compiler identification is GNU 9.4.0
+[1.935s] -- The CXX compiler identification is GNU 9.4.0
+[2.085s] -- Check for working C compiler: /usr/bin/cc
+[2.509s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.512s] -- Detecting C compiler ABI info
+[2.733s] -- Detecting C compiler ABI info - done
+[2.752s] -- Detecting C compile features
+[2.870s] -- Detecting C compile features - done
+[3.795s] -- Check for working CXX compiler: /usr/bin/c++
+[4.180s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.183s] -- Detecting CXX compiler ABI info
+[4.563s] -- Detecting CXX compiler ABI info - done
+[4.588s] -- Detecting CXX compile features
+[4.589s] -- Detecting CXX compile features - done
+[4.594s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.923s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.923s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.298s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.490s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.578s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.589s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.047s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.105s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.348s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.350s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.490s] -- Looking for pthread.h
+[6.825s] -- Looking for pthread.h - found
+[6.826s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.187s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.188s] -- Looking for pthread_create in pthreads
+[7.551s] -- Looking for pthread_create in pthreads - not found
+[7.551s] -- Looking for pthread_create in pthread
+[7.766s] -- Looking for pthread_create in pthread - found
+[7.768s] -- Found Threads: TRUE  
+[8.053s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.259s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[8.387s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[8.421s] CMake Error at CMakeLists.txt:25 (find_package):
+[8.422s]   By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project
+[8.422s]   has asked CMake to find a package configuration file provided by
+[8.422s]   "ydlidar_sdk", but CMake did not find one.
+[8.422s] 
+[8.422s]   Could not find a package configuration file provided by "ydlidar_sdk" with
+[8.422s]   any of the following names:
+[8.422s] 
+[8.423s]     ydlidar_sdkConfig.cmake
+[8.423s]     ydlidar_sdk-config.cmake
+[8.423s] 
+[8.423s]   Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set
+[8.423s]   "ydlidar_sdk_DIR" to a directory containing one of the above files.  If
+[8.423s]   "ydlidar_sdk" provides a separate development package or SDK, be sure it
+[8.423s]   has been installed.
+[8.423s] 
+[8.424s] 
+[8.427s] -- Configuring incomplete, errors occurred!
+[8.427s] See also "/home/orinnano004/ros2wk1/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".
+[8.427s] See also "/home/orinnano004/ros2wk1/build/ydlidar_ros2_driver/CMakeFiles/CMakeError.log".
+[8.446s] Invoked command in '/home/orinnano004/ros2wk1/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/orinnano004/ros2wk1/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orinnano004/ros2wk1/install/ydlidar_ros2_driver

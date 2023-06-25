@@ -1,0 +1,33 @@
+[0.070s] Invoking command in '/home/orinnano004/ros2wk1/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/orinnano004/ros2wk1/cartographer -DCMAKE_INSTALL_PREFIX=/home/orinnano004/ros2wk1/install/cartographer
+[0.106s] -- Build type: Release
+[0.130s] CMake Warning at /usr/src/googletest/googlemock/CMakeLists.txt:43 (project):
+[0.131s]   VERSION keyword not followed by a value or was followed by a value that
+[0.131s]   expanded to nothing.
+[0.131s] 
+[0.131s] 
+[0.131s] CMake Warning at /usr/src/googletest/googletest/CMakeLists.txt:54 (project):
+[0.132s]   VERSION keyword not followed by a value or was followed by a value that
+[0.132s]   expanded to nothing.
+[0.132s] 
+[0.132s] 
+[0.214s] CMake Error at CMakeLists.txt:32 (find_package):
+[0.215s]   By not providing "Findabsl.cmake" in CMAKE_MODULE_PATH this project has
+[0.215s]   asked CMake to find a package configuration file provided by "absl", but
+[0.215s]   CMake did not find one.
+[0.215s] 
+[0.216s]   Could not find a package configuration file provided by "absl" with any of
+[0.216s]   the following names:
+[0.216s] 
+[0.216s]     abslConfig.cmake
+[0.217s]     absl-config.cmake
+[0.217s] 
+[0.217s]   Add the installation prefix of "absl" to CMAKE_PREFIX_PATH or set
+[0.217s]   "absl_DIR" to a directory containing one of the above files.  If "absl"
+[0.218s]   provides a separate development package or SDK, be sure it has been
+[0.218s]   installed.
+[0.218s] 
+[0.218s] 
+[0.221s] -- Configuring incomplete, errors occurred!
+[0.222s] See also "/home/orinnano004/ros2wk1/cartographer/CMakeFiles/CMakeOutput.log".
+[0.222s] See also "/home/orinnano004/ros2wk1/cartographer/CMakeFiles/CMakeError.log".
+[0.255s] Invoked command in '/home/orinnano004/ros2wk1/build/cartographer' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/orinnano004/ros2wk1/cartographer -DCMAKE_INSTALL_PREFIX=/home/orinnano004/ros2wk1/install/cartographer

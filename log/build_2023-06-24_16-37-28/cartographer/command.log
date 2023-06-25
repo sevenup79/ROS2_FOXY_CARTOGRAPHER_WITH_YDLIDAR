@@ -1,0 +1,2 @@
+Invoking command in '/home/orinnano004/ros2wk1/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/orinnano004/ros2wk1/cartographer -DCMAKE_INSTALL_PREFIX=/home/orinnano004/ros2wk1/install/cartographer
+Invoked command in '/home/orinnano004/ros2wk1/build/cartographer' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/orinnano004/ros2wk1/cartographer -DCMAKE_INSTALL_PREFIX=/home/orinnano004/ros2wk1/install/cartographer

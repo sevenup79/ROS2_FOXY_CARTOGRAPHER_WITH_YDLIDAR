@@ -1,0 +1,59 @@
+[0.066s] Invoking command in '/home/orinnano004/ros2wk1/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/orinnano004/ros2wk1/cartographer -DCMAKE_INSTALL_PREFIX=/home/orinnano004/ros2wk1/install/cartographer
+[0.697s] -- The C compiler identification is GNU 9.4.0
+[1.361s] -- The CXX compiler identification is GNU 9.4.0
+[1.512s] -- Check for working C compiler: /usr/bin/cc
+[1.767s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.908s] -- Detecting C compiler ABI info
+[2.147s] -- Detecting C compiler ABI info - done
+[2.310s] -- Detecting C compile features
+[2.311s] -- Detecting C compile features - done
+[2.316s] -- Check for working CXX compiler: /usr/bin/c++
+[2.584s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.588s] -- Detecting CXX compiler ABI info
+[2.978s] -- Detecting CXX compiler ABI info - done
+[3.006s] -- Detecting CXX compile features
+[3.007s] -- Detecting CXX compile features - done
+[3.159s] -- Build type: Release
+[3.174s] Files /home/orinnano004/ros2wk1/build/cartographer/AllFiles.cmake and - differ
+[3.494s] CMake Warning at /usr/src/googletest/googlemock/CMakeLists.txt:43 (project):
+[3.495s]   VERSION keyword not followed by a value or was followed by a value that
+[3.495s]   expanded to nothing.
+[3.495s] 
+[3.496s] 
+[3.496s] CMake Warning at /usr/src/googletest/googletest/CMakeLists.txt:54 (project):
+[3.496s]   VERSION keyword not followed by a value or was followed by a value that
+[3.497s]   expanded to nothing.
+[3.497s] 
+[3.497s] 
+[3.541s] -- Found PythonInterp: /usr/bin/python (found version "3.8.10") 
+[3.683s] -- Looking for pthread.h
+[3.973s] -- Looking for pthread.h - found
+[3.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.335s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.336s] -- Looking for pthread_create in pthreads
+[4.862s] -- Looking for pthread_create in pthreads - not found
+[4.863s] -- Looking for pthread_create in pthread
+[5.089s] -- Looking for pthread_create in pthread - found
+[5.093s] -- Found Threads: TRUE  
+[5.115s] -- Found GMock: gmock_main;-lpthread  
+[5.142s] CMake Error at CMakeLists.txt:32 (find_package):
+[5.142s]   By not providing "Findabsl.cmake" in CMAKE_MODULE_PATH this project has
+[5.142s]   asked CMake to find a package configuration file provided by "absl", but
+[5.143s]   CMake did not find one.
+[5.143s] 
+[5.143s]   Could not find a package configuration file provided by "absl" with any of
+[5.144s]   the following names:
+[5.144s] 
+[5.144s]     abslConfig.cmake
+[5.144s]     absl-config.cmake
+[5.144s] 
+[5.145s]   Add the installation prefix of "absl" to CMAKE_PREFIX_PATH or set
+[5.145s]   "absl_DIR" to a directory containing one of the above files.  If "absl"
+[5.145s]   provides a separate development package or SDK, be sure it has been
+[5.145s]   installed.
+[5.146s] 
+[5.146s] 
+[5.146s] -- Configuring incomplete, errors occurred!
+[5.146s] See also "/home/orinnano004/ros2wk1/build/cartographer/CMakeFiles/CMakeOutput.log".
+[5.146s] See also "/home/orinnano004/ros2wk1/build/cartographer/CMakeFiles/CMakeError.log".
+[5.155s] Invoked command in '/home/orinnano004/ros2wk1/build/cartographer' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/orinnano004/ros2wk1/cartographer -DCMAKE_INSTALL_PREFIX=/home/orinnano004/ros2wk1/install/cartographer

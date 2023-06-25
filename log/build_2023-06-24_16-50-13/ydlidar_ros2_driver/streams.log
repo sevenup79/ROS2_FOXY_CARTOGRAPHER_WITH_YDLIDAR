@@ -1,0 +1,4 @@
+[0.059s] Invoking command in '/home/orinnano004/ros2wk1/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orinnano004/ros2wk1/build/ydlidar_ros2_driver -- -j6 -l6
+[0.179s] [ 50%] Built target ydlidar_ros2_driver_client
+[0.181s] [100%] Built target ydlidar_ros2_driver_node
+[0.235s] Invoked command in '/home/orinnano004/ros2wk1/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orinnano004/ros2wk1/build/ydlidar_ros2_driver -- -j6 -l6

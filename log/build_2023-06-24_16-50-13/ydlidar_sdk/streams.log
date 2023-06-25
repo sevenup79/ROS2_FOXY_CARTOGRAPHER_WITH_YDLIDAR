@@ -1,0 +1,12 @@
+[0.047s] Invoking command in '/home/orinnano004/ros2wk1/build/ydlidar_sdk': /usr/bin/cmake --build /home/orinnano004/ros2wk1/build/ydlidar_sdk -- -j6 -l6
+[0.157s] [ 45%] Built target ydlidar_sdk
+[0.208s] [ 51%] Built target tri_test
+[0.214s] [ 56%] Built target gs_test
+[0.223s] [ 62%] Built target sdm_test
+[0.223s] [ 67%] Built target tof_test
+[0.244s] [ 72%] Built target tri_and_gs_test
+[0.257s] [ 78%] Built target et_test
+[0.277s] [ 89%] Built target tri_restart
+[0.277s] [ 89%] Built target tmini_test
+[0.290s] [ 94%] Built target lidar_c_api_test
+[0.302s] [100%] Built target lidar_test
